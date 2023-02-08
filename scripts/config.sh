@@ -57,6 +57,7 @@ then
   echo "[ERROR][config.sh] - An error ocurred downloading the APIC toolkit to get the APIC CLI"
   exit 1
 fi
+sleep 15
 tar -zxvf toolkit-linux.tgz
 chmod +x apic-slim
 
